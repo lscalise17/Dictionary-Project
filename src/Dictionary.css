@@ -3,17 +3,18 @@
   background-color: pink;
   border-color: pink;
 }
+
 .dictionary h1 {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 20px;
 }
 .dictionary section {
-  background: white;
+  background: rgb(255, 255, 255);
   padding: 30px;
   border-radius: 5px;
   box-shadow: 0 10px 10px rgb(0 0 0/10%);
-  margin: 20px 0;
+  margin: 20px 40px;
 }
 .dictionary input {
   width: 30%;
@@ -23,4 +24,9 @@
 .dictionary .hint {
   font-size: 12px;
   margin-top: 5px;
+}
+.dictionary .intro {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
 }

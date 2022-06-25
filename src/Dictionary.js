@@ -32,6 +32,7 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="dictionary">
+        <div className="intro">Dictionary</div>
         <section>
           <h1>What would you like to look up?</h1>
           <form onSubmit={handleSubmit}>
