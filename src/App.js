@@ -8,7 +8,26 @@ function App() {
         <main>
           <Dictionary defaultKeyword="Wine" />
         </main>
-        <footer className="App-footer">Coded by Lauren Akinrinade</footer>
+        <footer>
+          This project was coded by Lauren Akinrinade and is
+          <a
+            href="https://github.com/lscalise17/Dictionary-Project"
+            target="_blank"
+            rel=" noopener noreferrer"
+          >
+            {" "}
+            Open-Sourced on GitHub
+          </a>
+          {""} and
+          <a
+            href="https://vocal-creponne-23d1ae.netlify.app/"
+            target="_blank"
+            rel=" noopener noreferrer"
+          >
+            {" "}
+            Hosted on Netlify
+          </a>
+        </footer>
       </div>
     </div>
   );
